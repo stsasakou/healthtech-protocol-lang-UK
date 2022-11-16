@@ -2,8 +2,10 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/CKDStageTreatment4Cats/CKDStageTreatment4Cats.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/HealthProtocolUK/HealthProtocolUK.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/HealthProtocolUK/sandbox/HealthProtocolUK.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/CKDExample/CKDExample.msd" folder="" />
     </projectModules>
   </component>
 </project>
