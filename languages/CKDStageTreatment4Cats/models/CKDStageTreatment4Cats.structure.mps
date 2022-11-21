@@ -8,9 +8,19 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="qq8q" ref="r:62aea5a2-1520-4b33-9237-a9e49c0f612f(HealthProtocolUK.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -107,7 +117,7 @@
     <property role="EcuMT" value="7577330750975299901" />
     <property role="TrG5h" value="Discontinue_Drugs" />
     <property role="3GE5qa" value="SupportedStatement" />
-    <property role="34LRSv" value="Discontinue Drugs" />
+    <property role="34LRSv" value="Discontinue Nephrotoxic Drugs: List" />
     <ref role="1TJDcQ" node="6$C5yJHxH4P" resolve="Supported_Statement" />
   </node>
   <node concept="1TIwiD" id="6$C5yJHxH50">
@@ -136,13 +146,6 @@
     <property role="TrG5h" value="Prescribe_Drugs" />
     <property role="3GE5qa" value="SupportedStatement" />
     <property role="34LRSv" value="Prescribe Drugs" />
-    <ref role="1TJDcQ" node="6$C5yJHxH4P" resolve="Supported_Statement" />
-  </node>
-  <node concept="1TIwiD" id="6$C5yJHxH54">
-    <property role="EcuMT" value="7577330750975299908" />
-    <property role="TrG5h" value="Monitor_Response_to_Treatment" />
-    <property role="3GE5qa" value="SupportedStatement" />
-    <property role="34LRSv" value="Monitor Response to Treatment" />
     <ref role="1TJDcQ" node="6$C5yJHxH4P" resolve="Supported_Statement" />
   </node>
   <node concept="1TIwiD" id="6$C5yJHxH55">
@@ -176,57 +179,25 @@
   <node concept="1TIwiD" id="6$C5yJHxKO0">
     <property role="EcuMT" value="7577330750975315200" />
     <property role="TrG5h" value="Drug" />
-    <property role="3GE5qa" value="Drugs_related" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6$C5yJHxKO1" role="1TKVEi">
-      <property role="IQ2ns" value="7577330750975315201" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="drug_property" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="6$C5yJHxKO7" resolve="Drug_Property" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6$C5yJHxKO6">
-    <property role="EcuMT" value="7577330750975315206" />
-    <property role="TrG5h" value="Drug_Taken" />
-    <property role="3GE5qa" value="Drugs_related" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6$C5yJHxKO9" role="1TKVEi">
-      <property role="IQ2ns" value="7577330750975315209" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="drug_taken_by_patient" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6$C5yJHxKO0" resolve="Drug" />
-    </node>
-    <node concept="1TJgyj" id="6$C5yJHAs_C" role="1TKVEi">
-      <property role="IQ2ns" value="7577330750976543080" />
-      <property role="20kJfa" value="drugs_cat_takes" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6$C5yJH_pUJ" resolve="Cat" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6$C5yJHxKO7">
-    <property role="EcuMT" value="7577330750975315207" />
-    <property role="TrG5h" value="Drug_Property" />
-    <property role="3GE5qa" value="Drugs_related" />
+    <property role="3GE5qa" value="Actors-Entities" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6$C5yJH_pUJ">
     <property role="EcuMT" value="7577330750976269999" />
     <property role="TrG5h" value="Cat" />
-    <property role="3GE5qa" value="Actors" />
+    <property role="3GE5qa" value="Actors-Entities" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6$C5yJH_pUK">
     <property role="EcuMT" value="7577330750976270000" />
     <property role="TrG5h" value="Owner" />
-    <property role="3GE5qa" value="Actors" />
+    <property role="3GE5qa" value="Actors-Entities" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6$C5yJH_pUL">
     <property role="EcuMT" value="7577330750976270001" />
     <property role="TrG5h" value="Vet" />
-    <property role="3GE5qa" value="Actors" />
+    <property role="3GE5qa" value="Actors-Entities" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3m2kVUbCFtV">
@@ -247,12 +218,23 @@
     <property role="EcuMT" value="3855736308834284628" />
     <property role="TrG5h" value="Manage_Condition" />
     <property role="3GE5qa" value="ManageCondition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="6$C5yJHxH4P" resolve="Supported_Statement" />
+    <node concept="1TJgyj" id="4rWCjETvl8c" role="1TKVEi">
+      <property role="IQ2ns" value="5115140550378213900" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="statements" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6$C5yJHxH4P" resolve="Supported_Statement" />
+    </node>
+    <node concept="PrWs8" id="4rWCjETyUrq" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3m2kVUbDbhl">
     <property role="EcuMT" value="3855736308834284629" />
     <property role="3GE5qa" value="ManageCondition" />
-    <property role="TrG5h" value="Manage_dehydration" />
+    <property role="TrG5h" value="Manage_Dehydration" />
     <ref role="1TJDcQ" node="3m2kVUbDbhk" resolve="Manage_Condition" />
   </node>
   <node concept="1TIwiD" id="3m2kVUbDbhm">
@@ -264,26 +246,65 @@
   <node concept="1TIwiD" id="3m2kVUbDbhn">
     <property role="EcuMT" value="3855736308834284631" />
     <property role="3GE5qa" value="ManageCondition" />
-    <property role="TrG5h" value="MonitorResponsetoTreatment" />
+    <property role="TrG5h" value="Manage_ResponsetoTreatment" />
     <ref role="1TJDcQ" node="3m2kVUbDbhk" resolve="Manage_Condition" />
   </node>
   <node concept="1TIwiD" id="3m2kVUbDbho">
     <property role="EcuMT" value="3855736308834284632" />
     <property role="3GE5qa" value="ManageCondition" />
-    <property role="TrG5h" value="ProteinuriaManagement" />
+    <property role="TrG5h" value="Manage_Proteinuria" />
     <ref role="1TJDcQ" node="3m2kVUbDbhk" resolve="Manage_Condition" />
   </node>
   <node concept="1TIwiD" id="3m2kVUbDbhp">
     <property role="EcuMT" value="3855736308834284633" />
     <property role="3GE5qa" value="ManageCondition" />
-    <property role="TrG5h" value="ReductionProsphateIntake" />
+    <property role="TrG5h" value="Manage_ReductionProsphateIntake" />
     <ref role="1TJDcQ" node="3m2kVUbDbhk" resolve="Manage_Condition" />
   </node>
   <node concept="1TIwiD" id="3m2kVUbDbhq">
     <property role="EcuMT" value="3855736308834284634" />
     <property role="3GE5qa" value="ManageCondition" />
-    <property role="TrG5h" value="AdditionalRecommendations" />
+    <property role="TrG5h" value="Manage_AdditionalRecommendations" />
     <ref role="1TJDcQ" node="3m2kVUbDbhk" resolve="Manage_Condition" />
+  </node>
+  <node concept="25R3W" id="4rWCjETz09E">
+    <property role="3F6X1D" value="5115140550379176554" />
+    <property role="3GE5qa" value="ManageCondition" />
+    <property role="TrG5h" value="Conditions" />
+    <node concept="25R33" id="4rWCjETz09F" role="25R1y">
+      <property role="3tVfz5" value="5115140550379176555" />
+      <property role="TrG5h" value="Dehydration" />
+    </node>
+    <node concept="25R33" id="4rWCjETz09G" role="25R1y">
+      <property role="3tVfz5" value="5115140550379176556" />
+      <property role="TrG5h" value="Systolic_Hypertension" />
+    </node>
+    <node concept="25R33" id="4rWCjETz09J" role="25R1y">
+      <property role="3tVfz5" value="5115140550379176559" />
+      <property role="TrG5h" value="Proteinuria_Management" />
+    </node>
+    <node concept="25R33" id="4rWCjETz09N" role="25R1y">
+      <property role="3tVfz5" value="5115140550379176563" />
+      <property role="TrG5h" value="Reduction_Prosphate_Intake" />
+    </node>
+    <node concept="25R33" id="4rWCjETz09S" role="25R1y">
+      <property role="3tVfz5" value="5115140550379176568" />
+      <property role="TrG5h" value="Monitor_Response_to_Treatment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4rWCjEUgk0R">
+    <property role="EcuMT" value="5115140550391054391" />
+    <property role="3GE5qa" value="SupportedStatement" />
+    <property role="TrG5h" value="TakeMeasurements" />
+    <property role="34LRSv" value="Take Measurements" />
+    <ref role="1TJDcQ" node="6$C5yJHxH4P" resolve="Supported_Statement" />
+    <node concept="1TJgyj" id="4rWCjEUr2VV" role="1TKVEi">
+      <property role="IQ2ns" value="5115140550393868027" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="measurements" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="qq8q:6lbBAKUpc98" resolve="Measurement" />
+    </node>
   </node>
 </model>
 
