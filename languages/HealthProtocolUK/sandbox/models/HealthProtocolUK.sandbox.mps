@@ -67,7 +67,9 @@
       </concept>
       <concept id="7299101808757366960" name="HealthProtocolUK.structure.WeightMeasurement" flags="ng" index="1vbRVs" />
       <concept id="5505995815587155402" name="HealthProtocolUK.structure.MeasurementRangeOperator" flags="ng" index="3YHjvf" />
+      <concept id="5505995815591850892" name="HealthProtocolUK.structure.TemperatureMeasurement" flags="ng" index="3ZiCA9" />
       <concept id="5505995815591850889" name="HealthProtocolUK.structure.BloodPressureMeasurement" flags="ng" index="3ZiCAc" />
+      <concept id="5505995815591850891" name="HealthProtocolUK.structure.SystolicPressureMeasurement" flags="ng" index="3ZiCAe" />
       <concept id="5505995815591850890" name="HealthProtocolUK.structure.DiastolicPressureMeasurement" flags="ng" index="3ZiCAf" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -88,6 +90,18 @@
       <property role="1vbOue" value="6lbBAKUpdBC/KILOGRAM" />
       <node concept="1vbRVs" id="4LDewmN8i6s" role="1vbOu8">
         <property role="TrG5h" value="weight" />
+      </node>
+    </node>
+    <node concept="1vbOud" id="4rWCjEV43Oi" role="1vbR2g">
+      <property role="1vbOue" value="2Vj0$6RsWx/CELSIUS_DEGREE" />
+      <node concept="3ZiCA9" id="4rWCjEV43Oq" role="1vbOu8">
+        <property role="TrG5h" value="temperature" />
+      </node>
+    </node>
+    <node concept="1vbOud" id="4rWCjEV43Ot" role="1vbR2g">
+      <property role="1vbOue" value="4LDewmN9gjl/MERCURY_MM" />
+      <node concept="3ZiCA9" id="4rWCjEV43OB" role="1vbOu8">
+        <property role="TrG5h" value="temperature" />
       </node>
     </node>
   </node>
@@ -233,6 +247,24 @@
         </node>
       </node>
     </node>
+    <node concept="1vbPKG" id="4rWCjEUZ7yV" role="1vbPLg">
+      <node concept="1vbQ0z" id="4rWCjEUZ7yW" role="1vbQ0A">
+        <node concept="1vbFZL" id="4rWCjEUZ7zi" role="1vbQ0W">
+          <node concept="1vbCGR" id="4rWCjEUZ7zo" role="1vbFZZ">
+            <property role="3ZjGdb" value="6lbBAKUpdBC/KILOGRAM" />
+            <node concept="1vbFZN" id="4rWCjEUZ7zs" role="1vbCGK">
+              <property role="1vbFZc" value="12" />
+            </node>
+          </node>
+        </node>
+        <node concept="3ZiCAe" id="4rWCjEUZ7zf" role="1vbQ0Y">
+          <property role="TrG5h" value="systolic pressure" />
+        </node>
+      </node>
+      <node concept="1vbQ0U" id="4rWCjEUZ7yZ" role="1vbQ0w">
+        <property role="1vbQ0P" value="6lbBAKUpfTB/ASK_MEDICAL_HELP" />
+      </node>
+    </node>
   </node>
   <node concept="1vbPLu" id="4Y8QIcEyqOV">
     <property role="TrG5h" value="diabetesGR" />
@@ -241,7 +273,7 @@
     <node concept="1vbPLj" id="4Y8QIcEyqOW" role="1vbPLm">
       <property role="1vbPKJ" value="10" />
       <property role="1vbPKH" value="20" />
-      <node concept="1vbOuR" id="4Y8QIcEyqP6" role="1vbPKE">
+      <node concept="1vbOuR" id="4rWCjEUJsL6" role="1vbPKE">
         <property role="TrG5h" value="glucose" />
       </node>
     </node>
@@ -268,7 +300,29 @@
       <node concept="1vbQ0U" id="4Y8QIcEyqPd" role="1vbQ0w">
         <property role="1vbQ0P" value="6lbBAKUpfTB/ASK_MEDICAL_HELP" />
         <property role="1vbQ0V" value="Test" />
-        <node concept="1vbQ00" id="4Y8QIcEyqPR" role="1vbQ0K">
+        <node concept="1vbQ00" id="3FHgQI6CgAz" role="1vbQ0K">
+          <property role="1vbQ01" value="6lbBAKUpfTO/DAILY" />
+        </node>
+      </node>
+    </node>
+    <node concept="1vbPKG" id="1N8ItrdFBN9" role="1vbPLg">
+      <node concept="1vbQ0z" id="1N8ItrdFBNa" role="1vbQ0A">
+        <node concept="1vbFZL" id="1N8ItrdFBNw" role="1vbQ0W">
+          <node concept="1vbCGR" id="1N8ItrdFBNA" role="1vbFZZ">
+            <property role="3ZjGdb" value="6lbBAKUpdBD/MOL_PER_LITRE" />
+            <node concept="1vbFZN" id="1N8ItrdFBNE" role="1vbCGK">
+              <property role="1vbFZc" value="12" />
+            </node>
+          </node>
+        </node>
+        <node concept="1vbOuR" id="1N8ItrdFBNt" role="1vbQ0Y">
+          <property role="TrG5h" value="glucose" />
+        </node>
+      </node>
+      <node concept="1vbQ0U" id="1N8ItrdFBNd" role="1vbQ0w">
+        <property role="1vbQ0P" value="6lbBAKUpfTB/ASK_MEDICAL_HELP" />
+        <property role="1vbQ0V" value="This os it" />
+        <node concept="1vbQ00" id="1N8ItrdFBNJ" role="1vbQ0K">
           <property role="1vbQ01" value="6lbBAKUpfTS/MONTHLY" />
         </node>
       </node>
