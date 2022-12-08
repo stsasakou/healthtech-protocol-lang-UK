@@ -328,9 +328,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4rWCjEUwNon" resolve="MeasurementCKD" />
     </node>
-    <node concept="PrWs8" id="5Zob3gWefrP" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="4rWCjEUuLzt">
     <property role="EcuMT" value="5115140550394845405" />
@@ -509,6 +506,7 @@
     <property role="EcuMT" value="5115140550409721295" />
     <property role="3GE5qa" value="MeasurementsCKD" />
     <property role="TrG5h" value="MeasurementProtocol" />
+    <property role="34LRSv" value="Measurement protocol" />
     <ref role="1TJDcQ" node="6$C5yJHxH4P" resolve="Supported_Statement" />
     <node concept="1TJgyj" id="4rWCjEVnxng" role="1TKVEi">
       <property role="IQ2ns" value="5115140550409721296" />
@@ -524,11 +522,11 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4rWCjEUuLzt" resolve="EvaluationEntry" />
     </node>
-    <node concept="PrWs8" id="3FHgQI6OsrI" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="PrWs8" id="5Zob3gW9tSt" role="PzmwI">
+    <node concept="PrWs8" id="3EgioLoO_$x" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="41Wrh8b$vVk" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="4rWCjEVnxnu">

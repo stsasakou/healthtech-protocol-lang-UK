@@ -285,7 +285,7 @@
         <child id="1182506816063" name="smodel" index="1iTxcG" />
       </concept>
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumerationMemberType" flags="in" index="2ZThk1">
@@ -1304,11 +1304,8 @@
     <property role="3GE5qa" value="MeasurementsCKD" />
     <ref role="1XX52x" to="5p09:4rWCjEVnxnf" resolve="MeasurementProtocol" />
     <node concept="3EZMnI" id="1N8ItrdtDR4" role="2wV5jI">
-      <node concept="3F0ifn" id="1N8Itrdwq2A" role="3EZMnx">
-        <property role="3F0ifm" value="Meassurement Protocol" />
-      </node>
       <node concept="3F0ifn" id="1N8Itrdwq3a" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
+        <property role="3F0ifm" value="Measurement Protocol:" />
         <node concept="ljvvj" id="1N8Itrdwq3B" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1413,7 +1410,9 @@
                   <node concept="I4A8Y" id="2Vj0$7qfFu" role="2OqNvi" />
                 </node>
                 <node concept="2RRcyG" id="2Vj0$7qg1P" role="2OqNvi">
-                  <ref role="2RRcyH" to="5p09:4rWCjEUZSwD" resolve="MeasurementUnitConfigCKD" />
+                  <node concept="chp4Y" id="2fy67knSm8f" role="3MHsoP">
+                    <ref role="cht4Q" to="5p09:4rWCjEUZSwD" resolve="MeasurementUnitConfigCKD" />
+                  </node>
                 </node>
               </node>
               <node concept="2I9FWS" id="2Vj0$7qhFZ" role="1tU5fm">
