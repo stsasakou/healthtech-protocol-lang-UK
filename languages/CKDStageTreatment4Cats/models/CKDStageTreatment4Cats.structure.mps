@@ -122,9 +122,6 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="SupportedStatement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="5Zob3gWeemD" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6$C5yJHxH4X">
     <property role="EcuMT" value="7577330750975299901" />

@@ -95,7 +95,7 @@
         <node concept="24FGtI" id="3EgioLnMuUA" role="3ZwvcQ" />
       </node>
       <node concept="3XCFjP" id="41Wrh8aZ2Eg" role="24FGso">
-        <property role="TrG5h" value="Test2" />
+        <property role="TrG5h" value="Creatinine" />
         <node concept="3WxVBB" id="41Wrh8aZ2Es" role="3XCFjC">
           <node concept="3XCFj$" id="41Wrh8aZ2Et" role="1vbQ0A">
             <node concept="3XCNfl" id="41Wrh8aZ2ED" role="1vbQ0W">
@@ -131,6 +131,16 @@
     <node concept="24FGs6" id="3EgioLpYwo0" role="24FGs0">
       <property role="27e5wO" value="2" />
       <node concept="24FGtH" id="3EgioLq3CfT" role="24FGso" />
+      <node concept="3XCFjP" id="7ONxCiElu$3" role="24FGso">
+        <property role="TrG5h" value="Example" />
+        <node concept="3WJu4d" id="7ONxCiElu$5" role="3XCFjE">
+          <property role="3Wv5Sd" value="12" />
+          <property role="3Wv5Sf" value="12" />
+          <node concept="3WvTs$" id="7ONxCiElu$d" role="3Wv5S0">
+            <property role="TrG5h" value="Phosphate Concentration" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="24FGs6" id="2fy67kornhL" role="24FGs0">
       <property role="27e5wO" value="1" />

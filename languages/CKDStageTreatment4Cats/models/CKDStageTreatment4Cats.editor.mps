@@ -1306,7 +1306,10 @@
     <node concept="3EZMnI" id="1N8ItrdtDR4" role="2wV5jI">
       <node concept="3F0ifn" id="1N8Itrdwq3a" role="3EZMnx">
         <property role="3F0ifm" value="Measurement Protocol:" />
-        <node concept="ljvvj" id="1N8Itrdwq3B" role="3F10Kt">
+      </node>
+      <node concept="3F0A7n" id="7ONxCiEv4IA" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="ljvvj" id="7ONxCiEv4IY" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
