@@ -521,20 +521,11 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="6$C5yJIohmA">
-    <property role="3GE5qa" value="SupportedStatement" />
-    <ref role="1XX52x" to="5p09:6$C5yJHxH55" resolve="Apply_Treatment" />
-    <node concept="PMmxH" id="6$C5yJIohmC" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <ref role="1k5W1q" node="5Hlro6E9OPw" resolve="stage_action" />
-    </node>
-  </node>
   <node concept="24kQdi" id="6$C5yJIpoPj">
     <property role="3GE5qa" value="SupportedStatement" />
     <ref role="1XX52x" to="5p09:6$C5yJHxH4P" resolve="Supported_Statement" />
-    <node concept="PMmxH" id="6$C5yJIpoPl" role="2wV5jI">
+    <node concept="PMmxH" id="3mDbE$qKlda" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <ref role="1k5W1q" node="5Hlro6E9OPw" resolve="stage_action" />
     </node>
   </node>
   <node concept="V5hpn" id="5Hlro6E9FCe">
