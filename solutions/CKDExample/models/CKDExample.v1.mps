@@ -20,10 +20,6 @@
       <concept id="7577330750975299911" name="CKDStageTreatment4Cats.structure.Disease_Resolved" flags="ng" index="24FGtG" />
       <concept id="7577330750975299910" name="CKDStageTreatment4Cats.structure.Dose_Reduction" flags="ng" index="24FGtH" />
       <concept id="7577330750975299909" name="CKDStageTreatment4Cats.structure.Apply_Treatment" flags="ng" index="24FGtI" />
-      <concept id="3855736308834284628" name="CKDStageTreatment4Cats.structure.Manage_Condition" flags="ng" index="2Y9IvE">
-        <child id="5115140550378213900" name="statements" index="3ZwvcQ" />
-      </concept>
-      <concept id="3855736308834284629" name="CKDStageTreatment4Cats.structure.Manage_Dehydration" flags="ng" index="2Y9IvF" />
       <concept id="5115140550403470831" name="CKDStageTreatment4Cats.structure.MeasurementType2UnitmappingCKD" flags="ng" index="3W0xjl">
         <property id="5115140550403470832" name="unit" index="3W0xja" />
         <child id="5115140550403470834" name="type" index="3W0xj8" />
@@ -36,44 +32,13 @@
       <concept id="5115140550395377182" name="CKDStageTreatment4Cats.structure.PhosphateConcetrationMeasurement" flags="ng" index="3WvTs$" />
       <concept id="5115140550395377180" name="CKDStageTreatment4Cats.structure.SDMAconcentrationMeasurement" flags="ng" index="3WvTsA" />
       <concept id="5115140550395377181" name="CKDStageTreatment4Cats.structure.UPCProteinuriaMeasurement" flags="ng" index="3WvTsB" />
-      <concept id="5115140550394845405" name="CKDStageTreatment4Cats.structure.EvaluationEntry" flags="ng" index="3WxVBB">
-        <child id="7299101808757374540" name="output" index="1vbQ0w" />
-        <child id="7299101808757374538" name="range" index="1vbQ0A" />
-      </concept>
       <concept id="5115140550391054391" name="CKDStageTreatment4Cats.structure.TakeMeasurement" flags="ng" index="3WJu4d">
         <property id="5115140550395232055" name="size" index="3Wv5Sd" />
         <property id="5115140550395232053" name="timeRange" index="3Wv5Sf" />
         <child id="5115140550395232058" name="measure" index="3Wv5S0" />
       </concept>
-      <concept id="5115140550410030218" name="CKDStageTreatment4Cats.structure.MeasurementOperandAdapter" flags="ng" index="3XBAQK">
-        <child id="7299101808757380444" name="operand" index="1vbCGK" />
-      </concept>
-      <concept id="5115140550410100930" name="CKDStageTreatment4Cats.structure.IntegerConstant" flags="ng" index="3XBO7S">
-        <property id="5115140550410100931" name="value" index="3XBO7T" />
-      </concept>
-      <concept id="5115140550409721310" name="CKDStageTreatment4Cats.structure.MeasurementRange" flags="ng" index="3XCFj$">
-        <child id="7299101808757374544" name="rangeOperator" index="1vbQ0W" />
-        <child id="7299101808757374546" name="measurement" index="1vbQ0Y" />
-      </concept>
       <concept id="5115140550409721295" name="CKDStageTreatment4Cats.structure.MeasurementProtocol" flags="ng" index="3XCFjP">
-        <child id="5115140550409721298" name="eval" index="3XCFjC" />
         <child id="5115140550409721296" name="takemeasurement" index="3XCFjE" />
-      </concept>
-      <concept id="5115140550409735158" name="CKDStageTreatment4Cats.structure.OutputResult" flags="ng" index="3XCIFc">
-        <property id="7299101808757374553" name="status" index="1vbQ0P" />
-        <property id="7299101808757374551" name="result" index="1vbQ0V" />
-        <child id="7299101808757374556" name="action" index="1vbQ0K" />
-      </concept>
-      <concept id="5115140550409735193" name="CKDStageTreatment4Cats.structure.AddReminderAction" flags="ng" index="3XCIOz">
-        <property id="2074111960629576151" name="numberof" index="3hvVw1" />
-        <property id="5115140550409735194" name="type" index="3XCIOw" />
-      </concept>
-      <concept id="5115140550409818858" name="CKDStageTreatment4Cats.structure.MeasurementUnaryOperator" flags="ng" index="3XCNfg">
-        <child id="7299101808757383571" name="operand" index="1vbFZZ" />
-      </concept>
-      <concept id="5115140550409818863" name="CKDStageTreatment4Cats.structure.LessUnaryOperator" flags="ng" index="3XCNfl" />
-      <concept id="5115140550409818860" name="CKDStageTreatment4Cats.structure.MeasurementOperand" flags="ng" index="3XCNfm">
-        <property id="5505995815592130894" name="unit" index="3ZjGdb" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -86,43 +51,16 @@
     <property role="TrG5h" value="CKD_for_cats" />
     <property role="24PR8x" value="This is a clinical protocol for CKD for cats" />
     <node concept="24FGs6" id="4rWCjEU9mVJ" role="24FGs0">
-      <property role="27e5wO" value="3" />
+      <property role="27e5wO" value="1" />
       <node concept="24FGtI" id="41Wrh8b7fhz" role="24FGso" />
       <node concept="24FGsm" id="41Wrh8b7fhZ" role="24FGso" />
       <node concept="24FGtH" id="3EgioLnUOxI" role="24FGso" />
-      <node concept="2Y9IvF" id="3EgioLnMuUl" role="24FGso">
-        <property role="TrG5h" value="Dehydration" />
-        <node concept="24FGtI" id="3EgioLnMuUA" role="3ZwvcQ" />
-      </node>
-      <node concept="3XCFjP" id="41Wrh8aZ2Eg" role="24FGso">
-        <property role="TrG5h" value="Creatinine" />
-        <node concept="3WxVBB" id="41Wrh8aZ2Es" role="3XCFjC">
-          <node concept="3XCFj$" id="41Wrh8aZ2Et" role="1vbQ0A">
-            <node concept="3XCNfl" id="41Wrh8aZ2ED" role="1vbQ0W">
-              <node concept="3XBAQK" id="41Wrh8aZ2EJ" role="1vbFZZ">
-                <property role="3ZjGdb" value="4rWCjEUZug$/CREATININE" />
-                <node concept="3XBO7S" id="41Wrh8aZ2EN" role="1vbCGK">
-                  <property role="3XBO7T" value="12" />
-                </node>
-              </node>
-            </node>
-            <node concept="3WvTsx" id="41Wrh8aZ2EA" role="1vbQ0Y">
-              <property role="TrG5h" value="Blood Creatinine Concentration" />
-            </node>
-          </node>
-          <node concept="3XCIFc" id="41Wrh8aZ2Ew" role="1vbQ0w">
-            <property role="1vbQ0P" value="6lbBAKUpfTB/ASK_MEDICAL_HELP" />
-            <property role="1vbQ0V" value="High creatinine" />
-            <node concept="3XCIOz" id="41Wrh8aZ2EP" role="1vbQ0K">
-              <property role="3hvVw1" value="21" />
-              <property role="3XCIOw" value="4rWCjEVn$Kv/DAYS" />
-            </node>
-          </node>
-        </node>
-        <node concept="3WJu4d" id="41Wrh8aZ2Ei" role="3XCFjE">
+      <node concept="3XCFjP" id="3mDbE$pTTkn" role="24FGso">
+        <property role="TrG5h" value="test" />
+        <node concept="3WJu4d" id="3mDbE$pTTkp" role="3XCFjE">
           <property role="3Wv5Sd" value="10" />
-          <property role="3Wv5Sf" value="20" />
-          <node concept="3WvTsx" id="41Wrh8aZ2Ep" role="3Wv5S0">
+          <property role="3Wv5Sf" value="10" />
+          <node concept="3WvTsx" id="3mDbE$pTTkz" role="3Wv5S0">
             <property role="TrG5h" value="Blood Creatinine Concentration" />
           </node>
         </node>
@@ -131,19 +69,19 @@
     <node concept="24FGs6" id="3EgioLpYwo0" role="24FGs0">
       <property role="27e5wO" value="2" />
       <node concept="24FGtH" id="3EgioLq3CfT" role="24FGso" />
-      <node concept="3XCFjP" id="7ONxCiElu$3" role="24FGso">
-        <property role="TrG5h" value="Example" />
-        <node concept="3WJu4d" id="7ONxCiElu$5" role="3XCFjE">
-          <property role="3Wv5Sd" value="12" />
-          <property role="3Wv5Sf" value="12" />
-          <node concept="3WvTs$" id="7ONxCiElu$d" role="3Wv5S0">
-            <property role="TrG5h" value="Phosphate Concentration" />
+      <node concept="3XCFjP" id="3mDbE$pTTkD" role="24FGso">
+        <property role="TrG5h" value="test2" />
+        <node concept="3WJu4d" id="3mDbE$pTTkF" role="3XCFjE">
+          <property role="3Wv5Sd" value="10" />
+          <property role="3Wv5Sf" value="10" />
+          <node concept="3WvTsw" id="3mDbE$pTTkN" role="3Wv5S0">
+            <property role="TrG5h" value="Blood Pressure" />
           </node>
         </node>
       </node>
     </node>
     <node concept="24FGs6" id="2fy67kornhL" role="24FGs0">
-      <property role="27e5wO" value="1" />
+      <property role="27e5wO" value="3" />
       <node concept="24FGtG" id="2fy67korni6" role="24FGso" />
     </node>
   </node>
