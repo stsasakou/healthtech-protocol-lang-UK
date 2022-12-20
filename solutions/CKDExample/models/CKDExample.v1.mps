@@ -32,6 +32,7 @@
       <concept id="5115140550403524649" name="CKDStageTreatment4Cats.structure.MeasurementUnitConfigCKD" flags="ng" index="3W0M$j">
         <child id="5115140550403524652" name="mappings" index="3W0M$m" />
       </concept>
+      <concept id="5115140550395404595" name="CKDStageTreatment4Cats.structure.DiastolicPressureMeasurement" flags="ng" index="3WvK09" />
       <concept id="5115140550395377178" name="CKDStageTreatment4Cats.structure.BloodPressureMeasurement" flags="ng" index="3WvTsw" />
       <concept id="5115140550395377179" name="CKDStageTreatment4Cats.structure.BloodCreatinineConcentrationMeasurement" flags="ng" index="3WvTsx" />
       <concept id="5115140550395377182" name="CKDStageTreatment4Cats.structure.PhosphateConcetrationMeasurement" flags="ng" index="3WvTs$" />
@@ -42,8 +43,6 @@
         <child id="7299101808757374538" name="range" index="1vbQ0A" />
       </concept>
       <concept id="5115140550391054391" name="CKDStageTreatment4Cats.structure.TakeMeasurement" flags="ng" index="3WJu4d">
-        <property id="5115140550395232055" name="size" index="3Wv5Sd" />
-        <property id="5115140550395232053" name="timeRange" index="3Wv5Sf" />
         <child id="5115140550395232058" name="measure" index="3Wv5S0" />
       </concept>
       <concept id="5115140550410030218" name="CKDStageTreatment4Cats.structure.MeasurementOperandAdapter" flags="ng" index="3XBAQK">
@@ -62,7 +61,10 @@
       </concept>
       <concept id="5115140550409735158" name="CKDStageTreatment4Cats.structure.OutputResult" flags="ng" index="3XCIFc">
         <property id="7299101808757374553" name="status" index="1vbQ0P" />
-        <property id="7299101808757374551" name="result" index="1vbQ0V" />
+        <child id="7299101808757374556" name="action" index="1vbQ0K" />
+      </concept>
+      <concept id="5115140550409735193" name="CKDStageTreatment4Cats.structure.AddReminderAction" flags="ng" index="3XCIOz">
+        <property id="5115140550409735194" name="type" index="3XCIOw" />
       </concept>
       <concept id="5115140550409818858" name="CKDStageTreatment4Cats.structure.MeasurementUnaryOperator" flags="ng" index="3XCNfg">
         <child id="7299101808757383571" name="operand" index="1vbFZZ" />
@@ -95,43 +97,70 @@
         <property role="TrG5h" value="Reduction Prosphate Intake" />
         <node concept="24FGtI" id="3mDbE$r0drN" role="3ZwvcQ" />
       </node>
-    </node>
-    <node concept="24FGs6" id="2fy67kornhL" role="24FGs0">
-      <property role="27e5wO" value="3" />
-      <node concept="24FGtG" id="3mDbE$qvL0d" role="24FGso" />
-    </node>
-    <node concept="24FGs6" id="3mDbE$qvL0r" role="24FGs0">
-      <property role="27e5wO" value="2" />
-      <node concept="24FGtG" id="3mDbE$qwIrr" role="24FGso" />
-      <node concept="3XCFjP" id="3mDbE$qvL1d" role="24FGso">
-        <property role="TrG5h" value="test" />
-        <node concept="3WxVBB" id="3mDbE$qvL1m" role="3XCFjC">
-          <node concept="3XCFj$" id="3mDbE$qvL1n" role="1vbQ0A">
-            <node concept="3XCNfl" id="3mDbE$qvL1z" role="1vbQ0W">
-              <node concept="3XBAQK" id="3mDbE$qvL1D" role="1vbFZZ">
+      <node concept="3XCFjP" id="3mDbE$rPfFC" role="24FGso">
+        <node concept="3WxVBB" id="3mDbE$rR4qP" role="3XCFjC">
+          <node concept="3XCFj$" id="3mDbE$rR4qQ" role="1vbQ0A">
+            <node concept="3XCNfl" id="3mDbE$rR4r2" role="1vbQ0W">
+              <node concept="3XBAQK" id="3mDbE$rR4r8" role="1vbFZZ">
                 <property role="3ZjGdb" value="4rWCjEUZug$/CREATININE" />
-                <node concept="3XBO7S" id="3mDbE$qvL1H" role="1vbCGK">
-                  <property role="3XBO7T" value="10" />
+                <node concept="3XBO7S" id="3mDbE$rR4rc" role="1vbCGK">
+                  <property role="3XBO7T" value="12" />
                 </node>
               </node>
             </node>
-            <node concept="3WvTsx" id="3mDbE$qvL1w" role="1vbQ0Y">
+            <node concept="3WvTsx" id="3mDbE$rR4qZ" role="1vbQ0Y">
               <property role="TrG5h" value="Blood Creatinine Concentration" />
             </node>
           </node>
-          <node concept="3XCIFc" id="3mDbE$qvL1q" role="1vbQ0w">
-            <property role="1vbQ0P" value="4rWCjEVn$K4/GOOD" />
-            <property role="1vbQ0V" value="This is fine" />
+          <node concept="3XCIFc" id="3mDbE$rR4qT" role="1vbQ0w">
+            <property role="1vbQ0P" value="6lbBAKUpfTz/CHECK_RISK_FACTORS" />
+            <node concept="3XCIOz" id="3mDbE$rR4re" role="1vbQ0K">
+              <property role="3XCIOw" value="4rWCjEVn$KA/MONTHS" />
+            </node>
           </node>
         </node>
-        <node concept="3WJu4d" id="3mDbE$qvL1e" role="3XCFjE">
-          <property role="3Wv5Sd" value="10" />
-          <property role="3Wv5Sf" value="10" />
-          <node concept="3WvTsx" id="3mDbE$qvL1j" role="3Wv5S0">
+        <node concept="3WJu4d" id="3mDbE$rPfFE" role="3XCFjE">
+          <node concept="3WvTsx" id="3mDbE$rPfFT" role="3Wv5S0">
             <property role="TrG5h" value="Blood Creatinine Concentration" />
           </node>
         </node>
       </node>
+    </node>
+    <node concept="24FGs6" id="2fy67kornhL" role="24FGs0">
+      <property role="27e5wO" value="3" />
+      <node concept="24FGtG" id="3mDbE$qvL0d" role="24FGso" />
+      <node concept="3XCFjP" id="3mDbE$ryE7j" role="24FGso">
+        <node concept="3WxVBB" id="3mDbE$ryE7w" role="3XCFjC">
+          <node concept="3XCFj$" id="3mDbE$ryE7x" role="1vbQ0A">
+            <node concept="3XCNfl" id="3mDbE$ryE7J" role="1vbQ0W">
+              <node concept="3XBAQK" id="3mDbE$ryE7P" role="1vbFZZ">
+                <property role="3ZjGdb" value="4LDewmN9gjl/MERCURY_MM" />
+                <node concept="3XBO7S" id="3mDbE$ryE7V" role="1vbCGK">
+                  <property role="3XBO7T" value="12" />
+                </node>
+              </node>
+            </node>
+            <node concept="3WvK09" id="3mDbE$ryE7G" role="1vbQ0Y">
+              <property role="TrG5h" value="Diastolic Blood Pressure" />
+            </node>
+          </node>
+          <node concept="3XCIFc" id="3mDbE$ryE7$" role="1vbQ0w">
+            <property role="1vbQ0P" value="6lbBAKUpfTz/CHECK_RISK_FACTORS" />
+            <node concept="3XCIOz" id="3mDbE$ryE7T" role="1vbQ0K">
+              <property role="3XCIOw" value="4rWCjEVn$Ku/WEEKS" />
+            </node>
+          </node>
+        </node>
+        <node concept="3WJu4d" id="3mDbE$ryE7l" role="3XCFjE">
+          <node concept="3WvTsw" id="3mDbE$ryE7t" role="3Wv5S0">
+            <property role="TrG5h" value="Blood Pressure" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="24FGs6" id="3mDbE$qvL0r" role="24FGs0">
+      <property role="27e5wO" value="2" />
+      <node concept="24FGtG" id="3mDbE$qwIrr" role="24FGso" />
     </node>
   </node>
   <node concept="3W0M$j" id="4rWCjEVfXT5">
