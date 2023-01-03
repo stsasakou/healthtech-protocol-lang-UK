@@ -747,6 +747,7 @@
     <property role="EcuMT" value="5115140550410100930" />
     <property role="3GE5qa" value="Evaluation" />
     <property role="TrG5h" value="IntegerConstant" />
+    <property role="34LRSv" value="integer" />
     <ref role="1TJDcQ" node="4rWCjEVnxnD" resolve="Operand" />
     <node concept="1TJgyi" id="4rWCjEVoY33" role="1TKVEl">
       <property role="IQ2nx" value="5115140550410100931" />
@@ -758,6 +759,7 @@
     <property role="EcuMT" value="5115140550410100933" />
     <property role="3GE5qa" value="Evaluation" />
     <property role="TrG5h" value="FloatConstant" />
+    <property role="34LRSv" value="float" />
     <ref role="1TJDcQ" node="4rWCjEVnxnD" resolve="Operand" />
     <node concept="1TJgyi" id="6lbBAKUpi6z" role="1TKVEl">
       <property role="IQ2nx" value="7299101808757383587" />

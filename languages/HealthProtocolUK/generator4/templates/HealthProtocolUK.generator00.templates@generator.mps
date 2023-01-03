@@ -894,10 +894,6 @@
           </node>
         </node>
         <node concept="3cpWs8" id="1iiJt6qvpCV" role="3cqZAp">
-          <node concept="15s5l7" id="1iiJt6qvpCW" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: incompatible types: java.util.List&lt;Measurement&gt; and java.util.List&lt;Object&gt;&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/7192154694570987550,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/554301099359820442]&quot;;" />
-            <property role="huDt6" value="Error: incompatible types: java.util.List&lt;Measurement&gt; and java.util.List&lt;Object&gt;" />
-          </node>
           <node concept="15s5l7" id="1iiJt6qvpCX" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: type ? super Object is not a subtype of main.Measurement&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c89590337(jetbrains.mps.baseLanguage.closures.typesystem)/8701449112292740706,r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/5977092449933510825]&quot;;" />
             <property role="huDt6" value="Error: type ? super Object is not a subtype of main.Measurement" />
@@ -1108,10 +1104,6 @@
               </node>
             </node>
           </node>
-          <node concept="15s5l7" id="1iiJt6qvpEb" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
-            <property role="huDt6" value="all typesystem messages" />
-          </node>
         </node>
         <node concept="3cpWs6" id="1iiJt6qvpEX" role="3cqZAp">
           <node concept="2OqwBi" id="1iiJt6qvpEi" role="3cqZAk">
@@ -1226,11 +1218,11 @@
               </node>
             </node>
           </node>
-          <node concept="15s5l7" id="1iiJt6qvvot" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
-            <property role="huDt6" value="all typesystem messages" />
-          </node>
         </node>
+      </node>
+      <node concept="15s5l7" id="2gWCG7g2tep" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
+        <property role="huDt6" value="all typesystem messages" />
       </node>
     </node>
     <node concept="2tJIrI" id="4Y8QIcEU8mf" role="jymVt" />
@@ -1443,7 +1435,7 @@
               </node>
             </node>
           </node>
-          <node concept="15s5l7" id="2Y24EKcitG_" role="lGtFl">
+          <node concept="15s5l7" id="2gWCG7g2Adw" role="lGtFl">
             <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;" />
             <property role="huDt6" value="all typesystem messages" />
           </node>
@@ -5394,13 +5386,13 @@
             <node concept="liA8E" id="392x5M8OTLw" role="2OqNvi">
               <ref role="37wK5l" node="5$2rF$3zCP5" resolve="setOperand" />
               <node concept="2YIFZM" id="392x5M8OU8y" role="37wK5m">
-                <ref role="37wK5l" to="wyt6:~Float.valueOf(float)" resolve="valueOf" />
                 <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
-                <node concept="2$xPTn" id="392x5M8OUnM" role="37wK5m">
-                  <property role="2$xPTl" value="5.0f" />
-                  <node concept="29HgVG" id="392x5M8OUrK" role="lGtFl">
-                    <node concept="3NFfHV" id="392x5M8OXsY" role="3NFExx">
-                      <node concept="3clFbS" id="392x5M8OXsZ" role="2VODD2">
+                <ref role="37wK5l" to="wyt6:~Float.valueOf(java.lang.String)" resolve="valueOf" />
+                <node concept="Xl_RD" id="2gWCG7fHklg" role="37wK5m">
+                  <property role="Xl_RC" value="0" />
+                  <node concept="29HgVG" id="2gWCG7fHkpu" role="lGtFl">
+                    <node concept="3NFfHV" id="2gWCG7fHkpv" role="3NFExx">
+                      <node concept="3clFbS" id="2gWCG7fHkpw" role="2VODD2">
                         <node concept="3clFbF" id="392x5M8RUgs" role="3cqZAp">
                           <node concept="2OqwBi" id="392x5M8RWtv" role="3clFbG">
                             <node concept="1PxgMI" id="392x5M8RW6W" role="2Oq$k0">
