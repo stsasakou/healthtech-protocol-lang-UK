@@ -23,7 +23,6 @@
       <concept id="7299101808757383583" name="HealthProtocolUK.structure.IntegerConstant" flags="ng" index="1vbFZN">
         <property id="7299101808757383584" name="value" index="1vbFZc" />
       </concept>
-      <concept id="7299101808757383579" name="HealthProtocolUK.structure.MoreUnaryOperator" flags="ng" index="1vbFZR" />
       <concept id="7299101808757383573" name="HealthProtocolUK.structure.MeasurementBinaryOperator" flags="ng" index="1vbFZT">
         <child id="7299101808757383576" name="secondOperand" index="1vbFZO" />
         <child id="7299101808757383574" name="operand" index="1vbFZU" />
@@ -278,74 +277,30 @@
         <property role="TrG5h" value="glucose" />
       </node>
     </node>
-    <node concept="1vbPKG" id="4Y8QIcEyqP9" role="1vbPLg">
-      <node concept="1vbQ0z" id="4Y8QIcEyqPa" role="1vbQ0A">
-        <node concept="3YHjvf" id="4Y8QIcEyqPm" role="1vbQ0W">
-          <node concept="1vbCGR" id="4Y8QIcEyqPv" role="1vbFZU">
+    <node concept="1vbPKG" id="6Q$_HmWCl6v" role="1vbPLg">
+      <node concept="1vbQ0z" id="6Q$_HmWCl6w" role="1vbQ0A">
+        <node concept="3YHjvf" id="6Q$_HmWCl6W" role="1vbQ0W">
+          <node concept="1vbCGR" id="6Q$_HmWCl75" role="1vbFZU">
             <property role="3ZjGdb" value="6lbBAKUpdBD/MOL_PER_LITRE" />
-            <node concept="1vbFZN" id="4Y8QIcEyqPz" role="1vbCGK">
-              <property role="1vbFZc" value="42" />
+            <node concept="1vbFZN" id="6Q$_HmWCl79" role="1vbCGK">
+              <property role="1vbFZc" value="10" />
             </node>
           </node>
-          <node concept="1vbCGR" id="4Y8QIcEyqPF" role="1vbFZO">
+          <node concept="1vbCGR" id="6Q$_HmWCl7h" role="1vbFZO">
             <property role="3ZjGdb" value="6lbBAKUpdBD/MOL_PER_LITRE" />
-            <node concept="1vbFZN" id="4Y8QIcEyqPJ" role="1vbCGK">
-              <property role="1vbFZc" value="47" />
+            <node concept="1vbFZN" id="6Q$_HmWCl7l" role="1vbCGK">
+              <property role="1vbFZc" value="15" />
             </node>
           </node>
         </node>
-        <node concept="1vbOuR" id="4Y8QIcEyqPj" role="1vbQ0Y">
+        <node concept="1vbOuR" id="6Q$_HmWCl6T" role="1vbQ0Y">
           <property role="TrG5h" value="glucose" />
         </node>
       </node>
-      <node concept="1vbQ0U" id="4Y8QIcEyqPd" role="1vbQ0w">
-        <property role="1vbQ0P" value="6lbBAKUpfTB/ASK_MEDICAL_HELP" />
-        <property role="1vbQ0V" value="Test" />
-        <node concept="1vbQ00" id="3FHgQI6CgAz" role="1vbQ0K">
-          <property role="1vbQ01" value="6lbBAKUpfTO/DAILY" />
-        </node>
-      </node>
-    </node>
-    <node concept="1vbPKG" id="1N8ItrdFBN9" role="1vbPLg">
-      <node concept="1vbQ0z" id="3mDbE$rKPqn" role="1vbQ0A">
-        <node concept="1vbFZL" id="3mDbE$rKPq_" role="1vbQ0W">
-          <node concept="1vbCGR" id="3mDbE$rKPqF" role="1vbFZZ">
-            <property role="3ZjGdb" value="6lbBAKUpdBD/MOL_PER_LITRE" />
-            <node concept="1vbFZN" id="3mDbE$rKPqJ" role="1vbCGK">
-              <property role="1vbFZc" value="12" />
-            </node>
-          </node>
-        </node>
-        <node concept="1vbOuR" id="3mDbE$rKPqy" role="1vbQ0Y">
-          <property role="TrG5h" value="glucose" />
-        </node>
-      </node>
-      <node concept="1vbQ0U" id="1N8ItrdFBNd" role="1vbQ0w">
-        <property role="1vbQ0P" value="6lbBAKUpfTv/GOOD" />
-        <property role="1vbQ0V" value="This os it" />
-        <node concept="1vbQ00" id="1N8ItrdFBNJ" role="1vbQ0K">
-          <property role="1vbQ01" value="6lbBAKUpfTS/MONTHLY" />
-        </node>
-      </node>
-    </node>
-    <node concept="1vbPKG" id="3mDbE$rKPqT" role="1vbPLg">
-      <node concept="1vbQ0z" id="3mDbE$rKPqU" role="1vbQ0A">
-        <node concept="1vbFZR" id="3mDbE$rKPro" role="1vbQ0W">
-          <node concept="1vbCGR" id="3mDbE$rKPru" role="1vbFZZ">
-            <property role="3ZjGdb" value="6lbBAKUpdBD/MOL_PER_LITRE" />
-            <node concept="1vbFZN" id="3mDbE$rKPry" role="1vbCGK">
-              <property role="1vbFZc" value="12" />
-            </node>
-          </node>
-        </node>
-        <node concept="1vbOuR" id="3mDbE$rKPrl" role="1vbQ0Y">
-          <property role="TrG5h" value="glucose" />
-        </node>
-      </node>
-      <node concept="1vbQ0U" id="3mDbE$rKPqX" role="1vbQ0w">
+      <node concept="1vbQ0U" id="6Q$_HmWCl6z" role="1vbQ0w">
         <property role="1vbQ0P" value="6lbBAKUpfTz/CHECK_RISK_FACTORS" />
-        <property role="1vbQ0V" value="This is it" />
-        <node concept="1vbQ00" id="3mDbE$rKPrD" role="1vbQ0K">
+        <property role="1vbQ0V" value="This is the end!" />
+        <node concept="1vbQ00" id="6Q$_HmWCl7t" role="1vbQ0K">
           <property role="1vbQ01" value="6lbBAKUpfTS/MONTHLY" />
         </node>
       </node>
