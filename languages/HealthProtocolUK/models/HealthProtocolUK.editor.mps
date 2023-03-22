@@ -394,14 +394,9 @@
       </node>
       <node concept="3F0A7n" id="46GzjArKI0B" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="7A29YW7Keu" resolve="protocolname" />
         <node concept="ljvvj" id="46GzjArKI0H" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-        <node concept="VechU" id="2Vj0$79IeP" role="3F10Kt">
-          <property role="Vb096" value="g1_qRwE/darkGreen" />
-        </node>
-        <node concept="Vb9p2" id="2Vj0$7a8ZJ" role="3F10Kt">
-          <property role="Vbekb" value="g1_k_vY/BOLD" />
         </node>
       </node>
       <node concept="3F0ifn" id="46GzjArL1WF" role="3EZMnx">
@@ -541,6 +536,15 @@
   <node concept="V5hpn" id="6lbBAKUplgy">
     <property role="TrG5h" value="main" />
     <property role="3GE5qa" value="styles" />
+    <node concept="14StLt" id="7A29YW7Keu" role="V601i">
+      <property role="TrG5h" value="protocolname" />
+      <node concept="VechU" id="7A29YW7KeF" role="3F10Kt">
+        <property role="Vb096" value="g1_qRwE/darkGreen" />
+      </node>
+      <node concept="Vb9p2" id="7A29YW7KeK" role="3F10Kt">
+        <property role="Vbekb" value="g1_k_vY/BOLD" />
+      </node>
+    </node>
     <node concept="14StLt" id="46GzjArLoBS" role="V601i">
       <property role="TrG5h" value="link" />
       <node concept="Vb9p2" id="46GzjArLoBX" role="3F10Kt">

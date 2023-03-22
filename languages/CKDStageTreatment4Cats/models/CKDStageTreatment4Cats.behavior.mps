@@ -2,7 +2,7 @@
 <model ref="r:428e86a6-36b2-426e-9582-cbcc8cd34bab(CKDStageTreatment4Cats.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
     <use id="feec32f9-bc8f-4da8-8efd-7f3f9dd4101b" name="jetbrains.mps.lang.feedback.problem.scopes" version="0" />
@@ -502,7 +502,21 @@
     <property role="3GE5qa" value="MeasurementsCKD" />
     <ref role="13h7C2" to="5p09:4rWCjEVnxnf" resolve="MeasurementProtocol" />
     <node concept="13hLZK" id="1N8ItrdBu__" role="13h7CW">
-      <node concept="3clFbS" id="1N8ItrdBu_A" role="2VODD2" />
+      <node concept="3clFbS" id="1N8ItrdBu_A" role="2VODD2">
+        <node concept="3clFbF" id="7A29YWoE8Q" role="3cqZAp">
+          <node concept="37vLTI" id="7A29YWoFhk" role="3clFbG">
+            <node concept="Xl_RD" id="7A29YWoFmd" role="37vLTx">
+              <property role="Xl_RC" value="measurement protocol" />
+            </node>
+            <node concept="2OqwBi" id="7A29YWoEko" role="37vLTJ">
+              <node concept="13iPFW" id="7A29YWoE8P" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7A29YWoExv" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="3FHgQI6Oss6" role="13h7CS">
       <property role="TrG5h" value="getScope" />
